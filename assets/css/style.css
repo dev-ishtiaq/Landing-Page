@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: center;
+    object-fit: cover;
+}
+.landing-page-area {
+    margin: 50px;
+    padding: 20px;
+}
+.left-side {
+    margin-top: 100px;
+}
+.left-side h1 {
+    font-weight: 700;
+    color: blue;
+}
+.left-side h4 {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color:crimson;
+    font-weight: bold;
+}
+.countdown-time {
+    color: crimson;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+}
+.countdown-time div {
+    flex-basis: 100px;
+}
+.countdown-time div p {
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.right-side {
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+    padding: 80px 70px; 
+    border: 2px solid blueviolet;
+    border-radius: 10px; 
+    background-color: rgba(255, 255, 255, .4);
+}
+.right-side input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: 1px solid brown;
+    border-radius: 5px;
+    justify-content: center;
+    width: 250px;
+}
+.right-side button{
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 3px 30px;
+    border-radius: 5px;
+    border: 2px solid green;
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.right-side button:hover {
+    color: aliceblue;
+    background-color: green;
+    transition: all .4s ease;
+}
